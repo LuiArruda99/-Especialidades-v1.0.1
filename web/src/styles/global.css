@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #29b6d1;
+  --color-primary-dark: #00c7c7;
+  --color-primary-light: #96feff;
+  --color-button: #15c3d6;
+  --color-button-light: #17d6eb;
+  --color-popup: #0089a5;
+  --color-secondary: #ffd666;
+  --color-brackground: #ebf2f5;
+  --color-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-brackground);
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 18px Nunito, sans-serif;
+}
